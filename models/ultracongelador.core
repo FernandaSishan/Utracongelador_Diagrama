@@ -21,6 +21,7 @@
         <viewElementEvents id="_-WqeoIi_Ee-t45eMS8y9Ow" name="HIGIENIZA&#xc7;&#xc3;O">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_KuasMIjFEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12"/>
         </viewElementEvents>
+        <viewElementEvents id="_J86LYIj0Ee-t45eMS8y9Ow" name="Config"/>
       </viewElements>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_X5v3UIjAEe-t45eMS8y9Ow" name="CONGELAR">
@@ -196,16 +197,74 @@
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_nS1ScIjGEe-t45eMS8y9Ow" name="Edi&#xe7;&#xe3;o de Receita">
       <viewElements xsi:type="core:ViewComponent" id="_QjMcUIjHEe-t45eMS8y9Ow" name="ViewComponent" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.16/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <viewComponentParts xsi:type="ext:SimpleField" id="_IIpoMIjjEe-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_U0Zu0IjzEe-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_VyRsUIjzEe-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_YFJG0IjzEe-t45eMS8y9Ow" name="Selection Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_Z1_ZYIjzEe-t45eMS8y9Ow" name="Simple Field"/>
       </viewElements>
       <viewElements xsi:type="core:ViewComponent" id="_uapjgIjjEe-t45eMS8y9Ow" name="ViewComponent">
-        <viewComponentParts xsi:type="ext:SelectionField" id="_0vsaAIjjEe-t45eMS8y9Ow" name="Tipo de sele&#xe7;&#xe3;o"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_U45pwIjyEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.18"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_VvD1sIjyEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.19"/>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_e4BI0IjzEe-t45eMS8y9Ow" name="Selection Field"/>
       </viewElements>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_MjOWEIjjEe-t45eMS8y9Ow" name="ViewContainer">
-      <viewElements xsi:type="ext:Details" id="_OfzXgIjjEe-t45eMS8y9Ow" name="Details"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_IRDEUIjlEe-t45eMS8y9Ow" name="TEMPERATURA" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.17/@viewElements.1/@outInteractionFlows.0">
+      <outInteractionFlows xsi:type="core:DataFlow" id="_Rqj0lojpEe-t45eMS8y9Ow"/>
+      <outInteractionFlows xsi:type="core:DataFlow" id="_STXnZojxEe-t45eMS8y9Ow"/>
+      <viewElements xsi:type="core:ViewComponent" id="_loWfEIjxEe-t45eMS8y9Ow" name="ViewComponent">
+        <viewComponentParts xsi:type="ext:SimpleField" id="_GH9lAIjyEe-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_GpwqgIjyEe-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_HQghcIjyEe-t45eMS8y9Ow" name="Simple Field"/>
+      </viewElements>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_IRDEUIjlEe-t45eMS8y9Ow" name="TEMPO"/>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_JB880IjlEe-t45eMS8y9Ow" name="TEMPERATURA"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_JB880IjlEe-t45eMS8y9Ow" name="TEMPO" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.17/@viewElements.1/@outInteractionFlows.1">
+      <outInteractionFlows xsi:type="core:DataFlow" id="_VA5eRojpEe-t45eMS8y9Ow"/>
+      <outInteractionFlows xsi:type="core:DataFlow" id="_UfQQJojxEe-t45eMS8y9Ow"/>
+      <viewElements xsi:type="core:ViewComponent" id="_mUhBgIjxEe-t45eMS8y9Ow" name="Iniciar Receita">
+        <viewElementEvents id="_ylDmEIjxEe-t45eMS8y9Ow" name="N&#xc3;O"/>
+        <viewElementEvents id="_y91ScIjxEe-t45eMS8y9Ow" name="SIM"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_TK2hoIj0Ee-t45eMS8y9Ow" name="ViewContainer">
+      <viewElements xsi:type="core:ViewComponent" id="_X-FnIIj0Ee-t45eMS8y9Ow" name="ViewComponent">
+        <viewComponentParts xsi:type="ext:SimpleField" id="_YgrW0Ij0Ee-t45eMS8y9Ow" name="Simple Field"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_UQmowIj0Ee-t45eMS8y9Ow" name="ViewContainer">
+      <viewElements xsi:type="core:ViewComponent" id="_abOX8Ij0Ee-t45eMS8y9Ow" name="ViewComponent">
+        <viewComponentParts xsi:type="ext:SimpleField" id="_brP1YIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_cKtYkIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_d8rsgIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_e1VLwIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_VWddkIj0Ee-t45eMS8y9Ow" name="ViewContainer">
+      <viewElements xsi:type="core:ViewComponent" id="_hzkegIj0Ee-t45eMS8y9Ow" name="ViewComponent">
+        <viewComponentParts xsi:type="ext:SimpleField" id="_ivukwIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_jVlq4Ij0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_kUimcIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_k9Mh4Ij0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_lp4owIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_m1MlUIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_oAyOsIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_rdWcMIj0Ee-t45eMS8y9Ow" name="ViewContainer">
+      <viewElements xsi:type="core:ViewComponent" id="_03IPAIj0Ee-t45eMS8y9Ow" name="ViewComponent"/>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_svmHMIj0Ee-t45eMS8y9Ow" name="ViewContainer">
+      <viewElements xsi:type="core:ViewComponent" id="_t9_0AIj0Ee-t45eMS8y9Ow" name="ViewComponent">
+        <viewComponentParts xsi:type="ext:SimpleField" id="_uzQoEIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_vhcjwIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_wFBx8Ij0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_ws97sIj0Ee-t45eMS8y9Ow" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_xr2l0Ij0Ee-t45eMS8y9Ow" name="Simple Field"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_9G4esIj0Ee-t45eMS8y9Ow" name="ViewContainer"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_9mLCwIj0Ee-t45eMS8y9Ow" name="ViewContainer"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_-M5EgIj0Ee-t45eMS8y9Ow" name="ViewContainer"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="__QXTsIj0Ee-t45eMS8y9Ow" name="ViewContainer"/>
   </interactionFlowModel>
-  <domainModel id="_yf13EYi-Ee-t45eMS8y9Ow"/>
+  <domainModel id="_yf13EYi-Ee-t45eMS8y9Ow" name=""/>
 </core:IFMLModel>
