@@ -357,7 +357,7 @@
       <viewElements xsi:type="core:ViewComponent" id="_awPFAIj8Ee-t45eMS8y9Ow" name="ViewComponent">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_5YrN8Ij8Ee-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.18/@viewElements.0"/>
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_6OLSkIj8Ee-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.19/@viewElements.0"/>
-        <viewComponentParts xsi:type="core:ConditionalExpression" id="_keItvoj8Ee-t45eMS8y9Ow" body="self.FormularioSelecao = 'Tempo' self.FormularioSelecao = 'Temperatura'" name="Selecionar"/>
+        <viewComponentParts xsi:type="core:ConditionalExpression" id="_keItvoj8Ee-t45eMS8y9Ow" language="self.FormularioSelecao = 'Tempo' self.FormularioSelecao = 'Temperatura'" body="" name="Selecionar"/>
       </viewElements>
     </interactionFlowModelElements>
   </interactionFlowModel>
