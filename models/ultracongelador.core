@@ -2,7 +2,7 @@
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" id="_yf13EIi-Ee-t45eMS8y9Ow">
   <interactionFlowModel id="_4AauQIi_Ee-t45eMS8y9Ow">
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_4AgN0Ii_Ee-t45eMS8y9Ow" name="ViewContainer">
-      <viewElements xsi:type="core:ViewComponent" id="_4nTIEIi_Ee-t45eMS8y9Ow" name="ViewComponent" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.13/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.16/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_4nTIEIi_Ee-t45eMS8y9Ow" name="ViewComponent" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.13/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.16/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
         <viewElementEvents id="_6Z2DwIi_Ee-t45eMS8y9Ow" name="CONGELAR">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_Bm_fkIjDEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0"/>
         </viewElementEvents>
@@ -21,7 +21,9 @@
         <viewElementEvents id="_-WqeoIi_Ee-t45eMS8y9Ow" name="HIGIENIZA&#xc7;&#xc3;O">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_KuasMIjFEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12"/>
         </viewElementEvents>
-        <viewElementEvents id="_J86LYIj0Ee-t45eMS8y9Ow" name="Config"/>
+        <viewElementEvents id="_J86LYIj0Ee-t45eMS8y9Ow" name="Config">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_6R1_sIj-Ee-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.20/@viewElements.0"/>
+        </viewElementEvents>
       </viewElements>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_X5v3UIjAEe-t45eMS8y9Ow" name="CONGELAR">
@@ -235,11 +237,13 @@
       </viewElements>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_TK2hoIj0Ee-t45eMS8y9Ow" name="ViewContainer">
-      <viewElements xsi:type="core:ViewComponent" id="_X-FnIIj0Ee-t45eMS8y9Ow" name="ViewComponent" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.21/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_X-FnIIj0Ee-t45eMS8y9Ow" name="ViewComponent" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.21/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElementEvents.6/@outInteractionFlows.0">
         <viewElementEvents id="_0fSvEIj6Ee-t45eMS8y9Ow" name="AVAN&#xc7;AR">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_JRJNYIj7Ee-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.21/@viewElements.0"/>
         </viewElementEvents>
-        <viewElementEvents id="_05nTkIj6Ee-t45eMS8y9Ow" name="VOLTAR"/>
+        <viewElementEvents id="_05nTkIj6Ee-t45eMS8y9Ow" name="VOLTAR">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_7XR9wIj-Ee-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0"/>
+        </viewElementEvents>
         <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_2RMxkIj6Ee-t45eMS8y9Ow" name="OnSubmit Event"/>
         <viewComponentParts xsi:type="ext:SimpleField" id="_YgrW0Ij0Ee-t45eMS8y9Ow" name="Simple Field"/>
       </viewElements>
