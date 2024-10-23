@@ -50,7 +50,7 @@
         <viewComponentParts xsi:type="ext:SimpleField" id="_ORq34IjCEe-t45eMS8y9Ow" name="TEMPO"/>
       </viewElements>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_a1RNQIjAEe-t45eMS8y9Ow" name="CONGELAR">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_a1RNQIjAEe-t45eMS8y9Ow" name="CONGELAR" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.19/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
       <viewElements xsi:type="core:ViewComponent" id="_4N8-gIjAEe-t45eMS8y9Ow" name="ViewComponent" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.2/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
         <viewElementEvents id="_R5Ya4IjBEe-t45eMS8y9Ow" name="VOLTAR">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_tQumgIjBEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.2/@viewElements.0"/>
@@ -104,7 +104,7 @@
         <viewComponentParts xsi:type="ext:SimpleField" id="_ma1QQIjCEe-t45eMS8y9Ow" name="TEMPO"/>
       </viewElements>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_ob6CEIjAEe-t45eMS8y9Ow" name="RESFRIAR">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_ob6CEIjAEe-t45eMS8y9Ow" name="RESFRIAR" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.19/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1">
       <viewElements xsi:type="core:ViewComponent" id="_CLciYIjBEe-t45eMS8y9Ow" name="ViewComponent" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.7/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
         <viewElementEvents id="_XgIA8IjBEe-t45eMS8y9Ow" name="VOLTAR">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_hQJJgIjBEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.7/@viewElements.0"/>
@@ -155,8 +155,8 @@
         </viewElementEvents>
       </viewElements>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_GgRGMIjEEe-t45eMS8y9Ow" name="DEGELO" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElementEvents.4/@outInteractionFlows.0">
-      <viewElements xsi:type="core:ViewComponent" id="_OksPoIjEEe-t45eMS8y9Ow" name="ViewComponent" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.15/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_GgRGMIjEEe-t45eMS8y9Ow" name="DEGELO" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElementEvents.4/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.15/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_OksPoIjEEe-t45eMS8y9Ow" name="ViewComponent">
         <viewElementEvents id="_6UR1AIjEEe-t45eMS8y9Ow" name="CANCELAR">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_OSgeAIjFEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0"/>
         </viewElementEvents>
@@ -176,7 +176,7 @@
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_InAJMIjEEe-t45eMS8y9Ow" name="DEGELO" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.13/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
       <viewElements xsi:type="core:ViewComponent" id="_P9kuIIjEEe-t45eMS8y9Ow" name="ViewComponent">
         <viewElementEvents id="_9o_HAIjEEe-t45eMS8y9Ow" name="VOLTAR">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_ZtfTkIjFEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.13/@viewElements.0"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_ZtfTkIjFEe-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.13"/>
         </viewElementEvents>
         <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_HftUgIjFEe-t45eMS8y9Ow" name="STOP"/>
         <viewComponentParts xsi:type="ext:SimpleField" id="_v-lzkIjEEe-t45eMS8y9Ow" name="TEMP. EVAPORADORA"/>
@@ -230,7 +230,10 @@
       <outInteractionFlows xsi:type="core:DataFlow" id="_VA5eRojpEe-t45eMS8y9Ow"/>
       <outInteractionFlows xsi:type="core:DataFlow" id="_UfQQJojxEe-t45eMS8y9Ow"/>
       <viewElements xsi:type="core:ViewComponent" id="_mUhBgIjxEe-t45eMS8y9Ow" name="Iniciar Receita" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.16/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.29/@viewElements.0/@outInteractionFlows.1">
-        <viewElementEvents id="_ylDmEIjxEe-t45eMS8y9Ow" name="N&#xc3;O"/>
+        <viewElementEvents id="_ylDmEIjxEe-t45eMS8y9Ow" name="N&#xc3;O">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_MrX54JFREe-BeemYTSP3AQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_3KhLEJFREe-BeemYTSP3AQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8"/>
+        </viewElementEvents>
         <viewElementEvents id="_y91ScIjxEe-t45eMS8y9Ow" name="SIM">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_wNjswIj9Ee-t45eMS8y9Ow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.18/@viewElements.0"/>
         </viewElementEvents>
